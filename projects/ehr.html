@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EHR Privacy Simulator • Isabella Buitano</title>
+  <link href="../styles.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="container">
+    <h1>EHR Privacy Simulator</h1>
+    <p class="lead">RBAC • Masking • Audit Log</p>
+    <nav><a href="../index.html">← Back</a></nav>
+  </header>
+  <main class="container">
+    <div class="card">
+      <img src="../assets/ehr-placeholder.png" alt="EHR Privacy Simulator" />
+      <div class="card-body">
+        <h2>Overview</h2>
+        <p>Role-based views (patient/provider/insurer) with column masking and immutable access logging on a toy EHR dataset.</p>
+        <h2>Stack</h2>
+        <p>Python, SQLite, Flask</p>
+        <h2>How to Run</h2>
+        <pre>python src/seed_db.py
+python src/demo_access.py --role provider --patient_id 101
+# Optional API
+python src/app.py  # open http://localhost:5000/patient/101?role=provider</pre>
+        <div class="cta">
+          <a class="btn" href="https://github.com/isabuitano/ehr-privacy-simulator" target="_blank" rel="noopener">View GitHub</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="container"><small>© 2025 Isabella Buitano</small></footer>
+</body>
+</html>
