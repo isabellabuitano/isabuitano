@@ -3,7 +3,7 @@ layout: default            # Works with any built‑in GitHub theme
 title: Isabella Buitano
 ---
 
-# Blake Lochmandy  
+# Isabella Buitano  
 **UCF CECS (B.S.) · Game Developer & Full Stack Engineer**
 
 > I build systems, set direction, and keep projects on course when the wind shifts.
