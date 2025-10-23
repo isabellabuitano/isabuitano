@@ -2,7 +2,7 @@
 
 This is the repository for my personal portfolio site, built with GitHub Pages and the Jekyll **Cayman** theme.
 
-Live site → https://isabuitano.github.io
+Live site → [https://isabuitano.github.io](https://isabellabuitano.github.io/isabuitano/)
 
 ---
 
